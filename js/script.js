@@ -122,6 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       })
       .catch((error) => console.error('Error loading video data:', error));
+     AOS.refresh(); 
 });
 
 const animItems = document.querySelectorAll('._anim-item');
