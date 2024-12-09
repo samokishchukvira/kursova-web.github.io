@@ -1,5 +1,3 @@
-AOS.init();
-
 if (window.innerWidth > 350) {  
     AOS.init({
       disable: false,  
